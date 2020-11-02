@@ -1,0 +1,214 @@
+
+==	equal to
+===	equal value and equal type
+
+two Javascript objects cannot be compared.
+
+any string/numbers can also be defined as objects with
+ the keyword new
+
+
+Youtube:
+
+2:06
+2:24
+2:02
+
+============================================================
+
+
+                    SKILLSHARE
+
+
+
+lessons:42,43.
+impt lesson:52,62,63,65,67,68,69.
+
+----------------------------------------------------------
+
+
+When HTML page is loaded in Web browser,it automatically
+creates Global Execution Context. It then creates Global
+Object(window) and THIS(keyword).
+
+
+
+HTML  ======> Global Execution ======> Global Object(window),
+                    Object                THIS(keyword)
+
+------------------------------------------------------------
+Logical Operators
+
+if we have to use "AND" in if...elseif statement then use symbol =>&&
+if we have to use "OR" in if...elseif statement then use symbol =>||
+ 
+NOT =>!
+-----------------------------------------------------------------------------------
+
+When "This" (keyword) used in function it refers to Global 
+(Window) Object 
+          But when "This" (keyword) used in object it refers 
+to Object name.
+
+--------------------------------------------------------------
+
+Array.from() changes HTML Collection to Array.
+------------------------------------------------------------
+
+foreach is an array method so we have to change HTML Collection
+to Array by using Array.from.
+
+var icons=document.getElementsByClassName('fa');
+
+Array.from(icons).forEach(function(icon){
+    console.log(icon);
+});    
+------------------------------------------------------------
+
+
+How to change Css property:
+
+
+1) document.getElementById ====> Helps to select element by id.
+                              i) innerHTml
+                             ii) Textcontent
+
+
+2)document.queryselector  ===> returns the first Element within the 
+                           document that matches the specified 
+                            selector, or group of selectors.
+
+
+3)document.querySelectorAll()===> The querySelectorAll() method 
+                         returns all elements in the document that
+                          matches a specified CSS selector(s), as
+                          a static NodeList object. we can select 
+                          multiple element at same time.
+
+             document.querySelectorAll('li,h2,#hide-list');
+
+
+4) document.getElementByClassName  ==> Helps to select multiple
+                                element with same class attribute
+ 
+5) document.getElementByTagName ===> The getElementsByTagName() 
+                         method returns a collection of an elements
+                         child elements with the specified tag 
+                         name, as a NodeList object.
+
+
+-----------------------------------------------------------------
+
+Function Construcor:
+ 
+   It is specially used to create object inside the function and it
+madatorily uses new and this keyword.If 'new' keyword is not used
+it refers yo global window object. And we must use first word
+as capital letter of function name. eg:Person.
+
+
+                eg:
+                   
+
+function Person(fname,lname){
+
+this.fname=fname;
+this.lname=lname;
+
+
+}
+
+person3=new Person('bob','marley');
+person4=new Person("sita","gurung");
+             
+ -------------------------------------------------------------
+    
+               
+JSON.parse : is used to get data with its original type.
+
+
+
+
+
+
+
+ if (questionlocalstorage.getQustionCollection()===null){
+                questionlocalstorage.setQustionCollection([]);
+            };
+
+
+
+ if (questionlocalstorage.getQustionCollection().length >0) {
+                questionId=questionlocalstorage.getQustionCollection()[questionlocalstorage.getQustionCollection().length -1].id+1;
+            }else{
+                questionId=0;
+            }
+
+
+
+
+------------------------------------------------------------------
+
+
+
+A DOMString representing the position relative to the element; must
+ be one of the following strings:
+
+      *  'beforebegin': Before the element itself.
+      *  'afterbegin': Just inside the element, before its first child.
+      * 'beforeend': Just inside the element, after its last child.
+      * 'afterend': After the element itself.
+
+------------------------------------------------------------------------------------
+
+               DOM NAVIGATION
+
+parentNode
+childNodes[nodenumber]
+firstElementChild
+lastElementChild
+nextElementSibling
+previousElementSibling
+
+----------------------------------------------------------------------------------
+
+IMPT QUESTIONS:
+
+
+difference between: var,let,const declarations.
+
+difference between: undefined and null.
+
+diff between: "==" and "===" operator.
+
+diff between: function statement and function expressions.
+
+hoisiting,IIFE,CLOSURES.
+
+=====================================================================================
+
+Element.getBoundingCLientRect() method returns the size of an element and its position relative to the viewport.
+
+offsetTop- A Number, representing the top position of the element, in pixels.
+
+
+-------------------------------------------------------------------------------------
+
+The find() method returns the first value that matches from the collection. Once 
+it matches the value in findings, it will not check the remaining values in the array
+ collection.
+
+The filter() method returns the matched values in an array from the collection.
+ It will check all values in the collection and return the matched values in an 
+array.
+
+------------------------------------------------------------------------------------
+
+Does return stop loop?
+
+ Yes, return stops execution and exits the function. return always** exits
+its function immediately, with no further execution if it's inside a for loop.
+
+
+
+      

@@ -1,0 +1,202 @@
+justify-content: it arranges the elements from left to right
+align-items:it arranges the elements from top to bottom
+display:flex: it hepls to keep the elements beside it
+
+
+
+CSS grid (column)
+Css grid-template-columns: 1fr;
+  
+If you want to align the elements in center having its max WIdth:
+max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+
+
+
+.container{
+    width: 100%;
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto
+@media  (min-width:576px){
+    .container{
+    max-width: 540px;
+    }
+}
+@media (min-width:768px){
+    .container{
+    max-width: 720px;
+    }
+}
+@media (min-width:992px ){
+    .container{
+    max-width: 960px;
+    }
+}
+@media (min-width:1200px ){
+    .container{
+    max-width:1152px;
+    }
+}
+
+
+
+
+RESEARCH ON :
+Content:'';
+:after;
+************************************************************************************
+
+To inline elements transform property is not applied.
+                    Eg: UL is an inline element so transform/width/height property
+is not applied,in order to apply transform property we need to change its display 
+property into block.
+
+
+*************************************************************************************
+
+
+
+
+
+
+object-fit: contain;  [ This property doesnot allow the pic to  stretch]
+
+For transparent background: 
+
+    background:linear-gradient(rgba(35,43,56,0.9),rgba(35,43,56,0.9)),url(img/food-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   For any img to be black&white:
+       
+             filter:grayscale(100%);
+
+
+
+Formula to display 3 images in 2 row. 
+         
+        width:calc(1/3*100%-(1-1/3*10px));
+      Example:
+         
+        * * *
+        * * *
+
+-------------------------------------------------------------------------------------------------
+
+
+background: background:linear-gradient(190deg,rgba(21,199,30,0.8)50%,rgba(233,67,67,0.8)0%);
+-----------------------------------------------------------------------------------------------------
+
+Shadow:
+
+ box-shadow: 0 0 30px white;
+box-shadow: 0 0 60px rgba(0,0,0,0.7);
+
+ 
+firt value defines x-axis
+second value defines y-axis
+third value defines blurness
+
+---------------------------------------------------------------------------
+
+transform:perspective(1000px) skewX(-20deg) rotateY(40deg);
+      
+         perspective is used to make an object 3D.
+------------------------------------------------------------------
+
+          FOR 3D BUTTON:
+
+.btn-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    perspective: 1000px;
+}
+.banner-btn{
+    width: 350px;
+    height: 100px;
+    background: linear-gradient(#16c3cf,#156469);
+    border: none;
+    outline: none;
+    font-family: 'Slabo 27px';
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 0 10px 10px black;
+    cursor: pointer;
+    transform: rotateX(70deg) rotateZ(30deg);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+.banner-btn:hover{
+    transform:rotateX(30deg) rotateZ(0deg);
+}
+.banner-btn::before{
+    content: '';
+    width: 100%;
+    height: 15px;
+    background-color: #156469;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotateX(90deg);
+  transform-origin: bottom;
+}
+.banner-btn::after{
+    content: '';
+    width: 15px;
+    height: 100%;
+    background-color: #16c3cf;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotateY(-90deg);
+  transform-origin: right;
+}
+
+------------------------------------------------------------------
+
+ScaleX helps to change the direction of elements(emoji) along x-axis
+
+
+
+====================================================================================
+
+grayscale = black an dwhite
+
+.cocktail:hover img {
+  filter: blur(2px) grayscale(50%);
+}
+
+------------------------------------------------------------------------------
+
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));(comfy house)
+grid-template-columns:auto 1fr auto;  (comfy house)
+// to have flexible height 
+
+grid-auto-rows:minmax(100px,auto); 
+
+-----------------------------------------------------------------------------------
+
+
+hover
+
+.about-img__container:hover:before {
+  top: 0;
+  left: 0;
+}
+
+----------------------------------------------------------------------------------
+
+to make arrow like structure
+
+ border-left: 1rem solid transparent;
+    border-right: 1rem solid #e2b646;
+    border-bottom: 1rem solid transparent;
+    border-top:1rem solid transparent ;
+
