@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+body{
+    font-family:Lora ;
+}
+
+.container{
+    background-color: #4e54c8;
+    background: linear-gradient(to left,#8f94fb,#4e54c8);
+    width: 100%;
+    height:100vh;
+}
+
+.circles-container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+
+.circle{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    list-style: none;
+    background-color: rgba(255,255,255,0.5);
+    animation: floating 13s linear infinite;
+    bottom: -150px;
+    left:30px;
+    
+}
+
+.circle:first-child{
+    left: 17%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 15s;
+}
+.circle:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 8s;
+}
+.circle:nth-child(3){
+    left: 30%;
+    width: 30px;
+    height: 30px;
+    animation-delay: 19s;
+}
+.circle:nth-child(4){
+    left: 40%;
+    width: 20px;
+    height: 20px;
+    animation-delay:15s;
+}
+.circle:nth-child(4){
+    left: 80%;
+    width: 40px;
+    height: 40px;
+    animation-delay:9s;
+}
+.circle:nth-child(4){
+    left: 60%;
+    width:30px;
+    height: 30px;
+    animation-delay: 12s;
+}
+.circle:nth-child(5){
+    left: 50%;
+    width:50px;
+    height: 50px;
+    animation-delay: 0s;
+}
+.circle:nth-child(6){
+    left: 70%;
+    widows: 20px;
+    height: 20px;
+    animation-delay: 7s;
+}
+.circle:nth-child(7){
+    left: 40%;
+    width:30px;
+    height: 30px;
+    animation-delay: 3s;
+}
+.circle:nth-child(8){
+    left: 90%;
+    width:30px;
+    height: 30px;
+    animation-delay: 16s;
+}
+@keyframes floating{
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;        
+    }
+}
+.title{
+    width: 100%;
+    position: absolute;
+    top: 50vh;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Lora;
+}
