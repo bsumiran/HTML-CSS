@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa:400,600&display=swap');
+body{
+	margin:0px;
+}
+header
+{
+	background:black;
+	color:white;
+	padding:8px 0px 6px 40px;
+	height:40px;
+	
+}
+header h1
+{
+	
+display:inline;
+font-family: 'Oswald', sans-serif;
+font-size:32px;
+font-weight:400;
+float:left;
+margin-top:0px;
+	margin-right:10px;
+}
+
+nav ul
+{
+	display:inline-block;
+	padding:0px;
+	float:left;
+		
+}
+ul li{
+	display:inline-block;
+	list-style-type:none;
+	float:left;
+	margin-left:10px;
+}
+nav ul li a{
+color:white;
+text-decoration:none;
+padding:20px 10px 12px 10px;}	
+
+
+#a{
+font-family: 'Dosis', sans-serif;}
+
+a:hover{
+	background:red;
+	
+}
+
+.divider
+{background:#F00;
+height:5px;
+}
+
+.homesub
+{
+	font-family:'Changa', sans-serif;
+	margin:0;
+	padding:9% 5% 0% 55%;
+	font-size:25px;
+	color:yellow;
+	
+}
+.homedesign
+{
+	font-family:'Changa', sans-serif;
+	margin:0.1% 0% 0% 55%;
+	font-size:73px;
+	color:white;
+	background:rgba(0,0,0,0.4);
+	display:inline-block;
+	
+}
+.homebitch
+{
+	font-family: 'Oswald', sans-serif;
+	font-size:67px;
+	margin:0% 0% 0% 55%;
+	color:#FC3;	
+}
+.buttonhome
+{
+	margin:0% 0% 0% 55%;
+	background:yellow;
+	color:black;
+	border:none;
+	height:50px;
+	font-size:1.4em;
+	padding:0 1em;
+	cursor:pointer;
+	font-family:'Changa', sans-serif;
+	font-weight:950;
+}
+	
+

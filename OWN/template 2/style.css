@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    height: 3000px;
+}
+.flex{
+    display: flex;
+    overflow: hidden;
+}
+
+.justify-content{
+    justify-content: space-between;    
+}
+.space-around{
+    justify-content: space-around;
+}
+.write{
+    margin-top: 2.5rem;
+    margin-right: 1rem;
+    background: white;
+    color: #8E8D83;
+    letter-spacing: 0.2rem;
+    padding: 0.3rem 3rem;
+    height:170px;
+    margin-left: 1rem;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.container{
+        width: 100%;
+        max-width:1252px;
+        padding:0 15px;
+        margin:0 auto;
+}
+.head-wrapper .left{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    letter-spacing: 0.3rem;
+    background-color: #9999CB;
+    padding:3.5rem 2rem;
+}
+.head-wrapper .right{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+   background-color: #EDEEF0;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   padding-left: 15rem;
+   
+   
+}
+.section-wrapper{
+    margin-top: 1rem;
+}
+
+.image-left img{
+    width: 700px;
+    height: 700px;
+    margin-right: 1rem;
+}
+.section-right{
+    background-color: #EDEEF0;
+    
+}
+.section-right h1{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+    padding: 1rem 2rem;
+    letter-spacing: 1px;
+}
+.section-right p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    padding: 0.5rem 2rem;
+    color:#8E8D83;
+    line-height: 1.5;
+}
+.section-right .button{
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.section-right .button a{
+    background-color: #CB9998;
+    
+    color: white;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+}
+.emo-wrapper{
+    margin-top: 1.5rem;
+  
+}
+.best{
+    background-color: #9999CB;
+    border-radius: 15px;
+    height:270px;
+    width: 100%;
+}
+.best .emo{
+    width: 33%;
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 1rem 2.5rem;
+}
+.best .emo i{
+    font-size: 4rem;
+    color: white;
+}
+.best .emo p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+.article-wrap{
+    margin-top: 1.5rem;
+    width: 100%;
+
+}
+.article-left{
+    width:38%;
+    margin-right: 1.5rem;
+    
+}
+.upper{
+    background-color: #F2F2F2;
+    padding-bottom: 2rem;   
+}
+.article-left h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    letter-spacing: 1px;
+    
+}
+.article-left p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+color: #8E8D83;
+letter-spacing: 1px;
+    
+
+}
+.article-left .lower{
+    margin-top: 1rem;
+    background-color: #DDDDDD;
+    
+   
+}
+.article-left .lower p{
+    padding-top: 2rem;
+    padding-right: 2.5rem;
+    color: #8E8D83;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    letter-spacing: 1px;
+
+}
+.article-right img{
+    width: 760px;
+    height: 700px;
+    padding-bottom: 1rem;
+}
+.lower .button-1{
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.lower .button-1 a{
+    text-decoration: none;
+    color:white ;
+    background-color: #666769;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+}
+.empty-wrapper .color{
+    background-color: #99CDFF;
+    height: 150px;
+    position: relative;
+    
+    
+}
+.empty-wrapper .color .empty-content h3{
+    position: absolute;       
+    font-size: 1.7rem;
+           font-family: 'Dosis', sans-serif;
+           top:1.8rem;
+           right: 2rem;
+           color: #393659;
+
+}
+.empty-wrapper .color .mid {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left:35%;
+
+    
+}
+.empty-wrapper .color .mid span{
+    margin-right: 1rem;
+    color: #41628B;
+    
+}
+.pic-wrapper{
+    padding-top: 1.5rem;
+}
+.pic-wrapper .pic-col .in{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1.5rem;
+}
+
+.pic-wrapper .pic-col img{
+    width: 229px;
+    height: 225px;
+    margin-bottom: 1rem;
+    margin-right: -2rem;
+    padding-bottom: 0.6rem;
+}
+.pic-wrapper .yoo{
+    height: 40px;
+    background-color:#99CDFF; ;
+}
+.contact .heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    background-color: #9ACC99;
+    margin-top: 1.5rem;
+    padding:2rem 0;
+    color: white;
+
+}
+.contact-wrapper{
+    margin-top: 1rem;
+}
+.width{
+    width: 33.3%;
+}
+.middle{
+    background-color: #F2F2F2;
+    width: 33%;
+    margin-right: 1rem;
+    margin-left: 2.7rem;
+
+}
+.middle .input{
+    background-color:#F2F2F2 ;
+    padding: 2rem 2.5rem;
+}
+.middle .input input {
+    font-size: 1rem;
+    width: 90%;
+    background-color:#F2F2F2 ;
+    padding:1rem 0;
+    border:none;
+    border-bottom: 1.5px solid #666769;
+    outline: none;
+}
+.middle .input textarea{
+    font-size: 1.5rem;
+    width: 90%;
+    background-color:#F2F2F2 ;
+    padding:1rem 0;
+    border:none;
+    border-bottom: 1.5px solid #666769;
+    margin-top: 1rem;
+    outline: none;
+    
+    
+}
+.middle .input button{
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+    background-color: #9ACC99;
+    outline: none;
+    padding: 0.7rem 2rem;
+    border: none;
+    margin-top: 2rem;
+    margin-left: 11rem;
+    color: white;
+}
+.contact .contact-right{
+    background-color:#DDDDDD;
+    width: 29%;
+    
+    
+}
+.contact .contact-right p,span{
+    font-size: 1.25rem;
+    padding: 1.5rem 2rem;
+    color:  #8E8D83;
+    line-height:1.5rem;
+}
